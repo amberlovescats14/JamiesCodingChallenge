@@ -1,16 +1,16 @@
-import axios from 'axios'
+// import axios from 'axios'
 
-export const getLeaders = () => async (dispatch) => {
-  try {
-    const res = await axios.get('../scores.json')
+// export const getLeaders = () => async (dispatch) => {
+//   try {
+//     const res = await axios.get('../../public/scores.json')
 
-    console.log(`data: `, res.data)
-    dispatch({
-      type: `GET_LEADERS`,
-      payload: res.data
-    })
-  } catch (error) {
-    console.error(error.message)
-    console.log(`get leaders error`);
-  }
-}
+//     console.log(`data: `, res.leader)
+//     dispatch({
+//       type: `GET_LEADERS`,
+//       payload: <res className="leader"></res>
+//     })
+//   } catch (error) {
+//     console.error(error.message)
+//     console.log(`get leaders error`);
+//   }
+// }

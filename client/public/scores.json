@@ -1,5 +1,5 @@
-export default {
-  leaderBoard:   [
+{
+  "leader": [
     {
       "name" : "cnbuff410",
       "RSS" : "500"
